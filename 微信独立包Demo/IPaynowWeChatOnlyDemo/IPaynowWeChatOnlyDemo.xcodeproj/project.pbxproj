@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA10EE81E126D1100CD6475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA10EE71E126D1100CD6475 /* main.m */; };
+		ACA10EF31E126D1100CD6475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA10EF21E126D1100CD6475 /* Assets.xcassets */; };
+		ACA10EF61E126D1100CD6475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA10EF41E126D1100CD6475 /* LaunchScreen.storyboard */; };
+		ACA10F011E126E2400CD6475 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA10EFE1E126E2400CD6475 /* AppDelegate.m */; };
+		ACA10F021E126E2400CD6475 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA10F001E126E2400CD6475 /* ViewController.m */; };
+		C418985D4307FF4BE11BEBAD /* libPods-IPaynowWeChatOnlyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 183DD5B1AB56C4834CAAF0D7 /* libPods-IPaynowWeChatOnlyDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183DD5B1AB56C4834CAAF0D7 /* libPods-IPaynowWeChatOnlyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPaynowWeChatOnlyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA10EE31E126D1100CD6475 /* IPaynowWeChatOnlyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPaynowWeChatOnlyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA10EE71E126D1100CD6475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACA10EF21E126D1100CD6475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACA10EF51E126D1100CD6475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACA10EF71E126D1100CD6475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA10EFD1E126E2400CD6475 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACA10EFE1E126E2400CD6475 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACA10EFF1E126E2400CD6475 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACA10F001E126E2400CD6475 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5F331E6E1FE0F113A1E5A0E /* Pods-IPaynowWeChatOnlyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPaynowWeChatOnlyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPaynowWeChatOnlyDemo/Pods-IPaynowWeChatOnlyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB7CC266D0F2F7011A5E4F4 /* Pods-IPaynowWeChatOnlyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPaynowWeChatOnlyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPaynowWeChatOnlyDemo/Pods-IPaynowWeChatOnlyDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA10EE01E126D1100CD6475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C418985D4307FF4BE11BEBAD /* libPods-IPaynowWeChatOnlyDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AA898B5FC689F96C609C476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5F331E6E1FE0F113A1E5A0E /* Pods-IPaynowWeChatOnlyDemo.debug.xcconfig */,
+				DFB7CC266D0F2F7011A5E4F4 /* Pods-IPaynowWeChatOnlyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71F940B2FE8B6B5F2BEF0437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183DD5B1AB56C4834CAAF0D7 /* libPods-IPaynowWeChatOnlyDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACA10EDA1E126D1100CD6475 = {
+			isa = PBXGroup;
+			children = (
+				ACA10EE51E126D1100CD6475 /* IPaynowWeChatOnlyDemo */,
+				ACA10EE41E126D1100CD6475 /* Products */,
+				5AA898B5FC689F96C609C476 /* Pods */,
+				71F940B2FE8B6B5F2BEF0437 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA10EE41E126D1100CD6475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA10EE31E126D1100CD6475 /* IPaynowWeChatOnlyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA10EE51E126D1100CD6475 /* IPaynowWeChatOnlyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ACA10EFD1E126E2400CD6475 /* AppDelegate.h */,
+				ACA10EFE1E126E2400CD6475 /* AppDelegate.m */,
+				ACA10EFF1E126E2400CD6475 /* ViewController.h */,
+				ACA10F001E126E2400CD6475 /* ViewController.m */,
+				ACA10EF21E126D1100CD6475 /* Assets.xcassets */,
+				ACA10EF41E126D1100CD6475 /* LaunchScreen.storyboard */,
+				ACA10EF71E126D1100CD6475 /* Info.plist */,
+				ACA10EE61E126D1100CD6475 /* Supporting Files */,
+			);
+			path = IPaynowWeChatOnlyDemo;
+			sourceTree = "<group>";
+		};
+		ACA10EE61E126D1100CD6475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACA10EE71E126D1100CD6475 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA10EE21E126D1100CD6475 /* IPaynowWeChatOnlyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA10EFA1E126D1100CD6475 /* Build configuration list for PBXNativeTarget "IPaynowWeChatOnlyDemo" */;
+			buildPhases = (
+				22F3FCD3FCB49A9A8D38C564 /* [CP] Check Pods Manifest.lock */,
+				ACA10EDF1E126D1100CD6475 /* Sources */,
+				ACA10EE01E126D1100CD6475 /* Frameworks */,
+				ACA10EE11E126D1100CD6475 /* Resources */,
+				C804BEE6E5A61BAB4F5D7523 /* [CP] Embed Pods Frameworks */,
+				7C8613059B22265EDD9A7C38 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPaynowWeChatOnlyDemo;
+			productName = IPaynowWeChatOnlyDemo;
+			productReference = ACA10EE31E126D1100CD6475 /* IPaynowWeChatOnlyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA10EDB1E126D1100CD6475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ipaynow;
+				TargetAttributes = {
+					ACA10EE21E126D1100CD6475 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G46Z83B74L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACA10EDE1E126D1100CD6475 /* Build configuration list for PBXProject "IPaynowWeChatOnlyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA10EDA1E126D1100CD6475;
+			productRefGroup = ACA10EE41E126D1100CD6475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA10EE21E126D1100CD6475 /* IPaynowWeChatOnlyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA10EE11E126D1100CD6475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA10EF61E126D1100CD6475 /* LaunchScreen.storyboard in Resources */,
+				ACA10EF31E126D1100CD6475 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F3FCD3FCB49A9A8D38C564 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C8613059B22265EDD9A7C38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPaynowWeChatOnlyDemo/Pods-IPaynowWeChatOnlyDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C804BEE6E5A61BAB4F5D7523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPaynowWeChatOnlyDemo/Pods-IPaynowWeChatOnlyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA10EDF1E126D1100CD6475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA10F021E126E2400CD6475 /* ViewController.m in Sources */,
+				ACA10F011E126E2400CD6475 /* AppDelegate.m in Sources */,
+				ACA10EE81E126D1100CD6475 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACA10EF41E126D1100CD6475 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA10EF51E126D1100CD6475 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA10EF81E126D1100CD6475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACA10EF91E126D1100CD6475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA10EFB1E126D1100CD6475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F331E6E1FE0F113A1E5A0E /* Pods-IPaynowWeChatOnlyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G46Z83B74L;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = IPaynowWeChatOnlyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaynow.IPaynowWeChatOnlyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACA10EFC1E126D1100CD6475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB7CC266D0F2F7011A5E4F4 /* Pods-IPaynowWeChatOnlyDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G46Z83B74L;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = IPaynowWeChatOnlyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipaynow.IPaynowWeChatOnlyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA10EDE1E126D1100CD6475 /* Build configuration list for PBXProject "IPaynowWeChatOnlyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA10EF81E126D1100CD6475 /* Debug */,
+				ACA10EF91E126D1100CD6475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA10EFA1E126D1100CD6475 /* Build configuration list for PBXNativeTarget "IPaynowWeChatOnlyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA10EFB1E126D1100CD6475 /* Debug */,
+				ACA10EFC1E126D1100CD6475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA10EDB1E126D1100CD6475 /* Project object */;
+}

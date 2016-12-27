@@ -1,0 +1,14 @@
+PODS:
+  - ipaynowWxOnly (2.0.0):
+    - ipaynowWxOnly/Core (= 2.0.0)
+  - ipaynowWxOnly/Core (2.0.0)
+
+DEPENDENCIES:
+  - ipaynowWxOnly (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  ipaynowWxOnly: 309d1ea3a271525cd303be4989d57ade5ed79653
+
+PODFILE CHECKSUM: 4a45d1cb0bcb10a51b2bf4888fa288ad93a4b6cb
+
+COCOAPODS: 1.1.1

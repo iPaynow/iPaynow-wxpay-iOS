@@ -1,0 +1,1 @@
+../../../ipaynowWxOnly/SDK/IpaynowPluginDelegate.h
