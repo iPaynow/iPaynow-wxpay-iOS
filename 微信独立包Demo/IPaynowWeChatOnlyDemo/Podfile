@@ -1,4 +1,4 @@
 platform :ios, ‘6.0’
 target ‘IPaynowWeChatOnlyDemo’ do
-    pod “ipaynowWxOnly”, '~> 2.0.0’
+    pod “ipaynowWxOnly”, '~> 2.0.1’
 end
