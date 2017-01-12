@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   
   s.name         = "ipaynowWxOnly"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "ipaynowplugin SDK"
   s.description  = <<-DESC
                    Help developer to quickly intergrate WechatPay
