@@ -1,14 +1,14 @@
 PODS:
-  - ipaynowWxOnly (2.0.0):
-    - ipaynowWxOnly/Core (= 2.0.0)
-  - ipaynowWxOnly/Core (2.0.0)
+  - ipaynowWxOnly (2.0.1):
+    - ipaynowWxOnly/Core (= 2.0.1)
+  - ipaynowWxOnly/Core (2.0.1)
 
 DEPENDENCIES:
-  - ipaynowWxOnly (~> 2.0.0)
+  - ipaynowWxOnly (~> 2.0.1)
 
 SPEC CHECKSUMS:
-  ipaynowWxOnly: 309d1ea3a271525cd303be4989d57ade5ed79653
+  ipaynowWxOnly: 6cad31a48fca4b914e065a69357f69e6ebbd12ee
 
-PODFILE CHECKSUM: 4a45d1cb0bcb10a51b2bf4888fa288ad93a4b6cb
+PODFILE CHECKSUM: 514009f1066994b7ddc80960ecc507d6982e7af3
 
 COCOAPODS: 1.1.1
