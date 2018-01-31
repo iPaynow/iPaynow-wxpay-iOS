@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "http://www.ipaynow.cn"
   s.license      = "MIT"
-  s.author       = { "Hstripe" => "huangrui@ipaynow.cn" }
+  s.author       = { "Chuck" => "lipengchang@ipaynow.cn" }
   s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/iPaynow/iPaynow-wxpay-iOS.git", :tag => s.version }
   s.default_subspec = 'Core'
