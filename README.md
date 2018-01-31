@@ -7,7 +7,7 @@ iOS SDK要求iOS6.0及以上
 ### 自动接入(CocoaPod方式)
 ####1.添加Podfile文件
 ```
-pod ‘ipaynowWxOnly’,'~> 2.0.1'
+pod ‘ipaynowWxOnly’,'~> 2.0.2'
 ```
 ####2.运行 `pod install`
 ####3.使用 `.xcworkspace`打开工程
